@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "65d598a7fb3461cb652a6302055064df",
+    "content-hash": "8677fe1e754b4159f08a82aba41461e4",
+    "packages": [
+        {
+            "name": "tianye/wechat-mp-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tianye/WechatMpSDK.git",
+                "reference": "a4372cf3ecce004062540b9f589228e5f684102b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tianye/WechatMpSDK/zipball/a4372cf3ecce004062540b9f589228e5f684102b",
+                "reference": "a4372cf3ecce004062540b9f589228e5f684102b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "Wechat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "tianye",
+                    "email": "3217834@qq.com"
+                }
+            ],
+            "description": "这是一个漂亮的微信SDK.",
+            "time": "2016-05-26 07:56:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tianye/wechat-mp-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "tianye/wechat-mp-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tianye/WechatMpSDK.git",
+            "reference": "a4372cf3ecce004062540b9f589228e5f684102b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tianye/WechatMpSDK/zipball/a4372cf3ecce004062540b9f589228e5f684102b",
+            "reference": "a4372cf3ecce004062540b9f589228e5f684102b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-05-26 07:56:15",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [],
+            "psr-4": {
+                "Wechat\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "tianye",
+                "email": "3217834@qq.com"
+            }
+        ],
+        "description": "这是一个漂亮的微信SDK."
+    }
+]

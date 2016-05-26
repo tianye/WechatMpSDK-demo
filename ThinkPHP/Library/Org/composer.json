@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tianye/wechat-mp-sdk": "dev-master"
+    }
+}
