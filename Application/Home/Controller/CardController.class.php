@@ -622,18 +622,18 @@ class CardController extends CommonController {
 		$card_id = 'pdkJ9uGXSYqNHc8U_z1k8MiFNRq8';
 
 		$required_form = array();
-		$required_form['common_field_id_list'] = array(
+		$required_form['required_form']['common_field_id_list'] = array(
 			"USER_FORM_INFO_FLAG_MOBILE",
         	"USER_FORM_INFO_FLAG_LOCATION",
         	"USER_FORM_INFO_FLAG_BIRTHDAY"
         );
-        $required_form['custom_field_list'] = array('喜欢的食物');
+        $required_form['required_form']['custom_field_list'] = array('喜欢的食物');
         
         $optional_form = array();
-        $optional_form['common_field_id_list'] = array(
+        $optional_form['optional_form']['common_field_id_list'] = array(
         	'USER_FORM_INFO_FLAG_EMAIL'
         );
-        $optional_form['custom_field_list']    = array('喜欢的电影');
+        $optional_form['optional_form']['custom_field_list']    = array('喜欢的电影');
 
         $WxApi = Api::factory('Card');
 
