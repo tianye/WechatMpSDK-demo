@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Home\Controller\CommonController;
 
-use Wechat\API;
+use Wechat\Api;
 
 class AuthController extends CommonController {
 
@@ -41,7 +41,7 @@ class AuthController extends CommonController {
             	$redirect = $WxApi->redirect();//直接跳转
         }
 
-        $permission = $this->getAccessPermission($code);//通过 code 获取 openid 和 access_token
+        $permission = $WxApi->getAccessPermission($code);//通过 code 获取 openid 和 access_token
 
 		$ret = $WxApi->getUser($permission['openid'], $permission['access_token']);//获取用户信息
 
